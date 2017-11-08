@@ -1,4 +1,4 @@
-package br.com.listamercado.app;
+﻿package br.com.listamercado.app;
 
 import android.content.Context;
 import android.support.annotation.LayoutRes;
@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
     ListView listView;
     EditText txtProduto;
     ProdutoAdapter adapter;
+
+    String xyz;	
+
     View.OnClickListener clickCK = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
